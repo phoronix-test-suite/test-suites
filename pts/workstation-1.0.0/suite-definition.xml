@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Workstation</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>This is a collection of tests designed to test a system's workstation / server capabilities.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/specviewperf9</Test>
+    <Arguments>ensight</Arguments>
+    <Description>ensight-03</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/specviewperf9</Test>
+    <Arguments>maya</Arguments>
+    <Description>maya-02</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/specviewperf9</Test>
+    <Arguments>proe</Arguments>
+    <Description>Pro/Engineer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vdrift</Test>
+    <Arguments>$VIDEO_WIDTH $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/server</Test>
+  </Execute>
+</PhoronixTestSuite>

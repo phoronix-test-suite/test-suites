@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Server Motherboard</Title>
+    <Version>1.2.0</Version>
+    <TestType>System</TestType>
+    <Description>A collection of motherboard tests for a server environment.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/nginx</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 4096M -i0</Arguments>
+    <Description>Size: 4GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 4096M -i0 -i1</Arguments>
+    <Description>Size: 4GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/phpbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>BLOWFISH</Arguments>
+    <Description>Blowfish</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/hmmer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>3000 fall</Arguments>
+    <Description>Test: 3000 Fall</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>convex-trimesh</Arguments>
+    <Description>Test: Convex Trimesh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.B</Arguments>
+    <Description>Test / Class: EP.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>is.C</Arguments>
+    <Description>Test / Class: IS.C</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.A</Arguments>
+    <Description>Test / Class: LU.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>mg.B</Arguments>
+    <Description>Test / Class: MG.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Copy</Arguments>
+    <Description>Type: Copy</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Scale</Arguments>
+    <Description>Type: Scale</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Add</Arguments>
+    <Description>Type: Add</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Triad</Arguments>
+    <Description>Type: Triad</Description>
+  </Execute>
+</PhoronixTestSuite>

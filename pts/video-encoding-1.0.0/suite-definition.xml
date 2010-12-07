@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Video Encoding</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>This test suite consists of video encoding tests. This suite is good for testing the system's processor, memory, and overall system performance.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/mencoder</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+</PhoronixTestSuite>

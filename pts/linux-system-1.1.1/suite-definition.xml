@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Linux System</Title>
+    <Version>1.1.1</Version>
+    <TestType>System</TestType>
+    <Description>A collection of tests designed to test the overall performance of a desktop computer.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-ogg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gnupg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gmpbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tachyon</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/hmmer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 64 -t 32</Arguments>
+    <Description>64MB Write - 32 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 64 -t 32</Arguments>
+    <Description>64MB Read - 32 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>12</Arguments>
+    <Description>12 Clients</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sunflow</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sudokut</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/nero2d</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/minion</Test>
+    <Arguments>benchmarks/solitaire/solitaire_benchmark_8.minion</Arguments>
+    <Description>Solitaire</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pybench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+</PhoronixTestSuite>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Favorites</Title>
+    <Version>1.1.0</Version>
+    <TestType>System</TestType>
+    <Description>This is a random collection of tests that are some of the personal favorite tests by Michael Larabel, the founder of Phoronix Media and the Phoronix Test Suite.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tremulous</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/urbanterror</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/build-php</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gnupg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/smallpt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>1000 stack</Arguments>
+    <Description>Test: 1000 Stack</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>convex-trimesh</Arguments>
+    <Description>Test: Convex Trimesh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/unpack-linux</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>1</Arguments>
+    <Description>1 Client</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/fio</Test>
+    <Arguments>examples/iometer-file-access-server</Arguments>
+    <Description>Intel IOMeter File Server Access Pattern</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+</PhoronixTestSuite>

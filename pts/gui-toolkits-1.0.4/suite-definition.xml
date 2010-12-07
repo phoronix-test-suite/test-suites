@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>GUI Toolkits</Title>
+    <Version>1.0.4</Version>
+    <TestType>Graphics</TestType>
+    <Description>This test suite is made up of GUI tool-kit test profiles. Currently this suite consists of tests for different GTK operations. This test suite is designed for testing your graphics card, processor (in some circumstances), and the graphics driver.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>COMBOBOX</Arguments>
+    <Description>GtkComboBox</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>DRAWING_PIXBUFS</Arguments>
+    <Description>GtkDrawingArea - Pixbufs</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>RADIO_BUTTON</Arguments>
+    <Description>GtkRadioButton</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render GEARSFANCY</Arguments>
+    <Description>XRender + Gears</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render TEXT</Arguments>
+    <Description>XRender + Text</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render COMPO</Arguments>
+    <Description>XRender + Image Scaling</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-gl GEARSFANCY</Arguments>
+    <Description>OpenGL + Gears</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-gl COMPO</Arguments>
+    <Description>OpenGL + Image Scaling</Description>
+  </Execute>
+</PhoronixTestSuite>

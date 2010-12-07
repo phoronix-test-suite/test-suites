@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>X Render Extension Testing</Title>
+    <Version>1.0.0</Version>
+    <TestType>Graphics</TestType>
+    <Description>This test suite consists of graphics tests that exercise the X11 RENDER extension.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/render-bench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render GEARSFANCY</Arguments>
+    <Description>XRender + Gears</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render TEXT</Arguments>
+    <Description>XRender + Text</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render COMPO</Arguments>
+    <Description>XRender + Image Scaling</Description>
+  </Execute>
+</PhoronixTestSuite>

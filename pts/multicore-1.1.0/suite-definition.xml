@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Multi-Core</Title>
+    <Version>1.1.0</Version>
+    <TestType>Processor</TestType>
+    <Description>This test suite consists of tests that are able to take advantage of multi-core and/or multi-processor systems. This suite can be used on a single core system, however, it's intended for systems with multiple processing cores. Among the tests in this suite are encoding, compilation, and rendering tests.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>BLOWFISH</Arguments>
+    <Description>Test: Blowfish</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Operation: Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>1000 convex</Arguments>
+    <Description>Test: 1000 Convex</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/smallpt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/hmmer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/minion</Test>
+    <Arguments>benchmarks/Quasigroup/qg-watchelement-7-10.minion</Arguments>
+    <Description>Benchmark: Quasigroup</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/minion</Test>
+    <Arguments>benchmarks/solitaire/solitaire_benchmark_8.minion</Arguments>
+    <Description>Benchmark: Solitaire</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.B</Arguments>
+    <Description>Test / Class: EP.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>is.C</Arguments>
+    <Description>Test / Class: IS.C</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.A</Arguments>
+    <Description>Test / Class: LU.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ua.A</Arguments>
+    <Description>Test / Class: UA.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/build-apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-php</Test>
+  </Execute>
+</PhoronixTestSuite>

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>OpenSolaris Nevada Test Suite</Title>
+    <Version>1.1.2</Version>
+    <TestType>System</TestType>
+    <Description>The Nevada test suite (named after the SXCE codename) is designed to house the most prominent tests that are compatible with Sun Microsystem's OpenSolaris / Solaris Express Community Edition operating systems.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/j2dbench</Test>
+    <Arguments>TEST_GRAPHICS</Arguments>
+    <Description>Vector Graphics</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/j2dbench</Test>
+    <Arguments>TEST_TEXT</Arguments>
+    <Description>Text Rendering</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-ogg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-php</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gnupg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 64 -t 4</Arguments>
+    <Description>64MB Write - 4 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 64 -t 32</Arguments>
+    <Description>64MB Write - 32 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 64 -t 32</Arguments>
+    <Description>64MB Read - 32 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-sharpen 0x1.0</Arguments>
+    <Description>Sharpen</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/byte</Test>
+    <Arguments>TEST_DHRY2</Arguments>
+    <Description>Dhrystone 2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/cachebench</Test>
+    <Arguments>-r</Arguments>
+    <Description>Read</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cachebench</Test>
+    <Arguments>-w</Arguments>
+    <Description>Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/smallpt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sudokut</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/unpack-linux</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/java</Test>
+  </Execute>
+</PhoronixTestSuite>

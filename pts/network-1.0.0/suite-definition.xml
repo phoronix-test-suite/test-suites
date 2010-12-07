@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Networking Test Suite</Title>
+    <Version>1.0.0</Version>
+    <TestType>Network</TestType>
+    <Description>The network test suite consists of tests designed to test the computer's networking performance.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/network-loopback</Test>
+  </Execute>
+</PhoronixTestSuite>

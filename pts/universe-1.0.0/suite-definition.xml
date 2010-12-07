@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Universe Test Suite</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>The Universe Phoronix Test Suite contains all benchmark profiles that are known to be in a working and good overall state. Among the profiles are encoding, compilation, graphics, and other system tests. The Universe test suite may take many minutes to complete.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/universe-cli</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/universe-x</Test>
+  </Execute>
+</PhoronixTestSuite>

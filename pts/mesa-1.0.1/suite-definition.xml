@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Mesa Test Suite</Title>
+    <Version>1.0.1</Version>
+    <TestType>Graphics</TestType>
+    <Description>The Mesa test suite consists of tests that should be compatible with the Mesa 3D display drivers on Linux.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/urbanterror</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/padman</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/nexuiz</Test>
+    <Arguments>+vid_width $VIDEO_WIDTH +vid_height $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/warsow</Test>
+    <Arguments>+vid_customwidth $VIDEO_WIDTH +vid_customheight $VIDEO_HEIGHT +vid_restart</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+</PhoronixTestSuite>

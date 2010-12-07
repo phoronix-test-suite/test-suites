@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Daily Kernel Tracker</Title>
+    <Version>1.1.0</Version>
+    <TestType>System</TestType>
+    <Description>These are the tests that are being run daily by the Phoronix Kernel Test Farm.</Description>
+    <Maintainer>Phoronix Media</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/urbanterror</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-gzip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/aio-stress</Test>
+    <Arguments>-o 2</Arguments>
+    <Description>Test: Random Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bork</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 2048M -i0</Arguments>
+    <Description>Size: 2GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 2048M -i0 -i1</Arguments>
+    <Description>Size: 2GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -k1 -f 64 -t 32</Arguments>
+    <Description>Test: Write - Size Per Thread: 64MB - Thread Count: 32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -f 64 -t 32</Arguments>
+    <Description>Test: Random Write - Size Per Thread: 64MB - Thread Count: 32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k1 -f 64 -t 32</Arguments>
+    <Description>Test: Read - Size Per Thread: 64MB - Thread Count: 32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k2 -k1 -f 64 -t 32</Arguments>
+    <Description>Test: Random Read - Size Per Thread: 64MB - Thread Count: 32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>1</Arguments>
+    <Description>Client Count: 1</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>6</Arguments>
+    <Description>Client Count: 6</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>12</Arguments>
+    <Description>Client Count: 12</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>48</Arguments>
+    <Description>Client Count: 48</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>128</Arguments>
+    <Description>Client Count: 128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/fs-mark</Test>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>1000 Files, 1MB Size</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-ogg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/hmmer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>3000 fall</Arguments>
+    <Description>Test: 3000 Fall</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>1000 stack</Arguments>
+    <Description>Test: 1000 Stack</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>convex-trimesh</Arguments>
+    <Description>Test: Convex Trimesh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>raytests</Arguments>
+    <Description>Test: Raytests</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Operation: Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ft.B</Arguments>
+    <Description>Test / Class: FT.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>is.C</Arguments>
+    <Description>Test / Class: IS.C</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.A</Arguments>
+    <Description>Test / Class: LU.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sunflow</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gnupg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+</PhoronixTestSuite>

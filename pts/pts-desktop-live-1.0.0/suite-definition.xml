@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>PTS Desktop Live</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>This is a suite containing the tests that are found by default on the PTS Desktop Live operating system. This suite has been updated against the PTS Desktop Live 2010.1 (Anzhofen) release.</Description>
+    <Maintainer>Phoronix Media</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/aio-stress</Test>
+    <Arguments>-o 2</Arguments>
+    <Description>Random Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/battery-power-usage</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>3000 fall</Arguments>
+    <Description>3000 Fall</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>136 ragdolls</Arguments>
+    <Description>136 Ragdolls</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>convex-trimesh</Arguments>
+    <Description>Convex Trimesh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/byte</Test>
+    <Arguments>TEST_DHRY2</Arguments>
+    <Description>Computational Dhrystone 2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/byte</Test>
+    <Arguments>TEST_INT</Arguments>
+    <Description>Computational Integer Arithmetic</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/cachebench</Test>
+    <Arguments>-b</Arguments>
+    <Description>Read / Modify / Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-ogg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/espeak</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/fhourstones</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gmpbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Operation: Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>TRADITIONAL_DES_MANY_SALTS</Arguments>
+    <Description>Traditional DES</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>BLOWFISH</Arguments>
+    <Description>Blowfish</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/n-queens</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>bt.A</Arguments>
+    <Description>Test / Class: BT.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.B</Arguments>
+    <Description>Test / Class: EP.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.A</Arguments>
+    <Description>Test / Class: LU.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>sp.A</Arguments>
+    <Description>Test / Class: SP.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>COPY -b 3</Arguments>
+    <Description>Type: Copy - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>SCALE -b 3</Arguments>
+    <Description>Type: Scale - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>ADD -b 3</Arguments>
+    <Description>Type: Add - Benchmark: Integer</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scimark2</Test>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>Computational Fast Fourier Transform</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sudokut</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tachyon</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>128</Arguments>
+    <Description>Rects - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>10 128</Arguments>
+    <Description>Transformed Blit Bilinear - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>12 128</Arguments>
+    <Description>Linear Gradient Blend - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>16 128</Arguments>
+    <Description>12pt Text LCD - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render GEARSFANCY</Arguments>
+    <Description>Rendering: XRender Extension - Gears</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render COMPO</Arguments>
+    <Description>Rendering: XRender Extension - Image Scaling</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tremulous</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/warsow</Test>
+    <Arguments>+vid_customwidth $VIDEO_WIDTH +vid_customheight $VIDEO_HEIGHT +vid_restart</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/video-cpu-usage</Test>
+    <Arguments>-vo gl2</Arguments>
+    <Description>Video Decoding: GL2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/video-cpu-usage</Test>
+    <Arguments>-vo xv</Arguments>
+    <Description>Video Decoding: X-Video</Description>
+  </Execute>
+</PhoronixTestSuite>

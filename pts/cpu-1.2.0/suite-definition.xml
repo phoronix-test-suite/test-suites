@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>CPU / Processor Suite</Title>
+    <Version>1.2.0</Version>
+    <TestType>Processor</TestType>
+    <Description>This test suite contains tests designed to test the system's CPU / processor.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/padman</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/etqw-demo</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-sharpen 0x1.0</Arguments>
+    <Description>Sharpen</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>TRADITIONAL_DES_MANY_SALTS</Arguments>
+    <Description>Traditional DES</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Arguments>BLOWFISH</Arguments>
+    <Description>Blowfish</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ttsiod-renderer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/smallpt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tachyon</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.B</Arguments>
+    <Description>Test / Class: EP.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>is.C</Arguments>
+    <Description>Test / Class: IS.C</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.A</Arguments>
+    <Description>Test / Class: LU.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>mg.B</Arguments>
+    <Description>Test / Class: MG.B</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ua.A</Arguments>
+    <Description>Test / Class: UA.A</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Copy</Arguments>
+    <Description>Type: Copy</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Scale</Arguments>
+    <Description>Type: Scale</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Add</Arguments>
+    <Description>Type: Add</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stream</Test>
+    <Arguments>Triad</Arguments>
+    <Description>Type: Triad</Description>
+  </Execute>
+</PhoronixTestSuite>

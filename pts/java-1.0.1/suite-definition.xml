@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Java</Title>
+    <Version>1.0.1</Version>
+    <TestType>System</TestType>
+    <Description>The Java test suite contains all Java-based test profiles within the Phoronix Test Suite.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/sunflow</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bork</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>FFT Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>SOR Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Monte Carlo Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Composite Performance</Description>
+  </Execute>
+</PhoronixTestSuite>

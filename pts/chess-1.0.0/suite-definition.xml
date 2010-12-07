@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Chess Test Suite</Title>
+    <Version>1.0.0</Version>
+    <TestType>Processor</TestType>
+    <Description>This test suite contains tests that are various benchmarks looking at the CPU's performance through different AI algorithms for a game of chess.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
+  </Execute>
+</PhoronixTestSuite>

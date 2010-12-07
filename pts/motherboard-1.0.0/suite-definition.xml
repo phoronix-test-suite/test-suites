@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Motherboard</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>A collection of desktop motherboard tests.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/lightsmark</Test>
+    <Arguments>$VIDEO_WIDTHx$VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/padman</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/network-loopback</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ttsiod-renderer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/unpack-linux</Test>
+  </Execute>
+</PhoronixTestSuite>

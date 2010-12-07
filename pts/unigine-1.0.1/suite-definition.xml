@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Unigine Test Suite</Title>
+    <Version>1.0.1</Version>
+    <TestType>Graphics</TestType>
+    <Description>The Unigine suite contains all technology demos from the Unigine Corp's advanced engine. The Unigine engine is very demanding upon the graphics processor.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/unigine-sanctuary</Test>
+    <Arguments>-video_width $VIDEO_WIDTH -video_height $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/unigine-tropics</Test>
+    <Arguments>-video_width $VIDEO_WIDTH -video_height $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/unigine-heaven</Test>
+    <Arguments>-video_width $VIDEO_WIDTH -video_height $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+</PhoronixTestSuite>

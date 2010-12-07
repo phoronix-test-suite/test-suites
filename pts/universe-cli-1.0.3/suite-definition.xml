@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Universe CLI Test Suite</Title>
+    <Version>1.0.3</Version>
+    <TestType>System</TestType>
+    <Description>The Universe CLI suite contains Phoronix Test Suite tests that are all command-line based / do not require an X server to be running.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/audio-encoding</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/video-encoding</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compilation</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compression</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/disk</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/cryptography</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/computational</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/memory</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/database</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/server</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/java</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/espeak</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/network</Test>
+  </Execute>
+</PhoronixTestSuite>

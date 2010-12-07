@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Disk Test Suite</Title>
+    <Version>1.2.1</Version>
+    <TestType>Disk</TestType>
+    <Description>This test suite is designed to contain real-world disk and file-system tests.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+    <RunMode>PCQS</RunMode>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/compress-gzip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compilebench</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 8192M -i0</Arguments>
+    <Description>8GB Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 8192M -i0 -i1</Arguments>
+    <Description>8GB Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>1</Arguments>
+    <Description>1 Clients</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>12</Arguments>
+    <Description>12 Clients</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>48</Arguments>
+    <Description>48 Clients</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>128</Arguments>
+    <Description>128 Clients</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/fs-mark</Test>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>1000 Files, 1MB Size</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/fio</Test>
+    <Arguments>examples/iometer-file-access-server</Arguments>
+    <Description>Intel IOMeter File Server Access Pattern</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k2 -k1 -f 64 -t 32</Arguments>
+    <Description>64MB Random Read - 32 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+    <Arguments>-k3 -k2 -f 64 -t 32</Arguments>
+    <Description>64MB Random Write - 32 Threads</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/aio-stress</Test>
+    <Arguments>-o 2</Arguments>
+    <Description>Random Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/unpack-linux</Test>
+  </Execute>
+</PhoronixTestSuite>

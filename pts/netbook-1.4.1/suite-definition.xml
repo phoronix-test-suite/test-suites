@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Netbook Test Suite</Title>
+    <Version>1.4.1</Version>
+    <TestType>System</TestType>
+    <Description>This test suite is designed to test various aspects of a netbook/net-top/UMPC computer.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tremulous</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ttsiod-renderer</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/fs-mark</Test>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>1000 Files, 1MB Size</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/unpack-linux</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/network-loopback</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>1000 stack</Arguments>
+    <Description>Test: 1000 Stack</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>convex-trimesh</Arguments>
+    <Description>Test: Convex Trimesh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gui-toolkits</Test>
+  </Execute>
+</PhoronixTestSuite>

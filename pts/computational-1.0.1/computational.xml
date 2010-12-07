@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Computational Test Suite</Title>
+    <Version>1.0.1</Version>
+    <TestType>System</TestType>
+    <Description>This test suite contains tests that deal with measuring the system's computational / arithmetic performance. Some of the included tests are of synthetic nature while others have real-world meanings.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/byte</Test>
+    <Arguments>TEST_DHRY2</Arguments>
+    <Description>Dhrystone 2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scimark2</Test>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Composite</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/fhourstones</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gmpbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/chess</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sudokut</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/nero2d</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/computational-biology</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/minion</Test>
+    <Arguments>benchmarks/solitaire/solitaire_benchmark_8.minion</Arguments>
+    <Description>Solitaire</Description>
+  </Execute>
+</PhoronixTestSuite>

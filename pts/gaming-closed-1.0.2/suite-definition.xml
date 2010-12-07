@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Closed-Source Gaming</Title>
+    <Version>1.0.2</Version>
+    <TestType>System</TestType>
+    <Description>The gaming test suite is made up of all game tests that are available for free download but are not under an open-source license, this does include free demos for retail games.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/etqw-demo</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ut2004-demo</Test>
+    <Arguments>ons-torlan?spectatoronly=1?numbots=8?quickstart=1?attractcam=1 -benchmark -seconds=120 -nosound -ini=../UT2004_1280x1024.ini</Arguments>
+    <Description>ONS-Torlan Botmatch - 1280 x 1024</Description>
+  </Execute>
+</PhoronixTestSuite>

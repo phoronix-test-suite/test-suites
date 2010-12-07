@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Universe X Test Suite</Title>
+    <Version>1.0.3</Version>
+    <TestType>System</TestType>
+    <Description>The Universe X suite contains Phoronix Test Suite tests that require an active X server / tests that are graphics-based.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/gui-toolkits</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gaming</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/opengl-demos</Test>
+  </Execute>
+</PhoronixTestSuite>

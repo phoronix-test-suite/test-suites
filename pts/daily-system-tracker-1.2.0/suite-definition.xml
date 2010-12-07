@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Daily System Tracker</Title>
+    <Version>1.2.0</Version>
+    <TestType>System</TestType>
+    <Description>These are the tests that are being run daily by the Phoronix Kernel Test Farm.</Description>
+    <Maintainer>Phoronix Media</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth 1024 +set r_customHeight 768</Arguments>
+    <Description>1024 x 768</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openarena</Test>
+    <Arguments>+set r_customWidth $VIDEO_WIDTH +set r_customHeight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tremulous</Test>
+    <Arguments>+set r_customwidth 1024 +set r_customheight 768</Arguments>
+    <Description>1024 x 768</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tremulous</Test>
+    <Arguments>+set r_customwidth $VIDEO_WIDTH +set r_customheight $VIDEO_HEIGHT</Arguments>
+    <Description>$VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/urbanterror</Test>
+    <Arguments>+set r_customWidth 1280 +set r_customHeight 1024</Arguments>
+    <Description>1280 x 1024</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-gl GEARSFANCY</Arguments>
+    <Description>OpenGL + Gears</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render GEARSFANCY</Arguments>
+    <Description>XRender + Gears</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/qgears2</Test>
+    <Arguments>-render TEXT</Arguments>
+    <Description>XRender + Text</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>COMBOBOX</Arguments>
+    <Description>GtkComboBox</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>DRAWING_PIXBUFS</Arguments>
+    <Description>GtkDrawingArea - Pixbufs</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/gtkperf</Test>
+    <Arguments>RADIO_BUTTON</Arguments>
+    <Description>GtkRadioButton</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-scroll500</Arguments>
+    <Description>Test: Scrolling 500 x 500 px</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-aatrapezoid300</Arguments>
+    <Description>Test: Fill 300 x 300px AA Trapezoid</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-copywinwin500</Arguments>
+    <Description>Test: 500px Copy From Window To Window</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-comppixwin500</Arguments>
+    <Description>Test: 500px Compositing From Pixmap To Window</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-copypixpix500</Arguments>
+    <Description>Test: Copy 500x500 From Pixmap To Pixmap</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x11perf</Test>
+    <Arguments>-aa10text</Arguments>
+    <Description>Test: Char in 80-char aa line</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>10 128</Arguments>
+    <Description>Transformed Blit Bilinear - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>12 128</Arguments>
+    <Description>Linear Gradient Blend - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/jxrendermark</Test>
+    <Arguments>16 128</Arguments>
+    <Description>12pt Text LCD - Size: 128x128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/j2dbench</Test>
+    <Arguments>TEST_GRAPHICS</Arguments>
+    <Description>Vector Graphics</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/j2dbench</Test>
+    <Arguments>TEST_TEXT</Arguments>
+    <Description>Text Rendering</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>FFT Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>SOR Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/java-scimark2</Test>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Monte Carlo Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sunflow</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-lzma</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-pbzip2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-php</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 2048M -i0</Arguments>
+    <Description>Size: 2GB - Disk Test: Write Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/iozone</Test>
+    <Arguments>-r 4k -s 2048M -i0 -i1</Arguments>
+    <Description>Size: 2GB - Disk Test: Read Performance</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>6</Arguments>
+    <Description>Client Count: 6</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>12</Arguments>
+    <Description>Client Count: 12</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dbench</Test>
+    <Arguments>48</Arguments>
+    <Description>Client Count: 48</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/aio-stress</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/fs-mark</Test>
+    <Arguments>-s 1048576 -n 1000</Arguments>
+    <Description>1000 Files, 1MB Size</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/unpack-linux</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bork</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/x264</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-ogg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>3000 fall</Arguments>
+    <Description>Test: 3000 Fall</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>1000 stack</Arguments>
+    <Description>Test: 1000 Stack</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>convex-trimesh</Arguments>
+    <Description>Test: Convex Trimesh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/bullet</Test>
+    <Arguments>raytests</Arguments>
+    <Description>Test: Raytests</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Operation: Local Adaptive Thresholding</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/graphics-magick</Test>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/himeno</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/n-queens</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/crafty</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tscp</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/tachyon</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/povray</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/dcraw</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/pybench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/sudokut</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/john-the-ripper</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/gcrypt</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/gnupg</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+</PhoronixTestSuite>

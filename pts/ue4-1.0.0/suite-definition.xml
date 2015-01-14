@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.6.0m0 (Dedilovo)-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Unreal Engine 4 Demos</Title>
+    <Version>1.0.0</Version>
+    <TestType>Graphics</TestType>
+    <Description>Various Phoronix Test Suite test profiles of Unreal Engine 4 demos.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/ue4-atlantis</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ue4-elemental</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ue4-matinee</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ue4-mountains</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+</PhoronixTestSuite>

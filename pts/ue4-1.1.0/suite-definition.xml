@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.6.0m1 (Dedilovo)-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Unreal Engine 4 Tech Demos On Linux</Title>
+    <Version>1.1.0</Version>
+    <TestType>Graphics</TestType>
+    <Description>Collection of Unreal Engine 4 demos running on 64-bit Linux.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/ue4-atlantis</Test>
+    <Arguments>-ResX=$VIDEO_WIDTH -ResY=$VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ue4-elemental</Test>
+    <Arguments>-ResX=$VIDEO_WIDTH -ResY=$VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ue4-matinee</Test>
+    <Arguments>-ResX=$VIDEO_WIDTH -ResY=$VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ue4-mountains</Test>
+    <Arguments>-ResX=$VIDEO_WIDTH -ResY=$VIDEO_HEIGHT</Arguments>
+    <Description>Resolution: $VIDEO_WIDTH x $VIDEO_HEIGHT</Description>
+  </Execute>
+</PhoronixTestSuite>

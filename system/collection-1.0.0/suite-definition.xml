@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.2.0m2-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>Collection</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>Collection of different pts and system test profiles for stressing the system software.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>system/compress-lzma</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>system/compress-pbzip2</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>system/gnupg</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>system/openssl</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite</Test>
+    <Arguments></Arguments>
+    <Description>Test Target: Default Test Directory</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/build-linux-kernel</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pgbench</Test>
+    <Arguments>BUFFER_TEST HEAVY_CONTENTION READ_WRITE</Arguments>
+    <Description>Scaling: Buffer Test - Test: Heavy Contention - Mode: Read Write</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/redis</Test>
+    <Arguments>-t set</Arguments>
+    <Description>Test: SET</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mafft</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ffmpeg</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+  </Execute>
+</PhoronixTestSuite>

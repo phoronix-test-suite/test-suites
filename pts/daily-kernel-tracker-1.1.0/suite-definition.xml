@@ -215,4 +215,10 @@
   <Execute>
     <Test>pts/openssl</Test>
   </Execute>
+  <Execute>
+    <Test>pts/hackbench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/schbench</Test>
+  </Execute>
 </PhoronixTestSuite>

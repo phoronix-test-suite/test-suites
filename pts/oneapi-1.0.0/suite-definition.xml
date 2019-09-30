@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.0.0-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>oneAPI</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>A collection of test profiles stressing either Intel oneAPI software components themselves (Open Image Denoise, OSPray, Embree) or benchmarks/programs leveraging these components.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/luxcorerender</Test>
+    <Arguments>DLSC/LuxCoreScene/render.cfg</Arguments>
+    <Description>Scene: DLSC</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/luxcorerender</Test>
+    <Arguments>RainbowColorsAndPrism/LuxCoreScene/render.cfg</Arguments>
+    <Description>Scene: Rainbow Colors and Prism</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/embree</Test>
+    <Arguments>pathtracer -c asian_dragon/asian_dragon.ecs</Arguments>
+    <Description>Binary: Pathtracer - Model: Asian Dragon</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/embree</Test>
+    <Arguments>pathtracer -c asian_dragon_obj/asian_dragon.ecs</Arguments>
+    <Description>Binary: Pathtracer - Model: Asian Dragon Obj</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/embree</Test>
+    <Arguments>pathtracer -c crown/crown.ecs</Arguments>
+    <Description>Binary: Pathtracer - Model: Crown</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/embree</Test>
+    <Arguments>pathtracer_ispc -c asian_dragon/asian_dragon.ecs</Arguments>
+    <Description>Binary: Pathtracer ISPC - Model: Asian Dragon</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/embree</Test>
+    <Arguments>pathtracer_ispc -c asian_dragon_obj/asian_dragon.ecs</Arguments>
+    <Description>Binary: Pathtracer ISPC - Model: Asian Dragon Obj</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/embree</Test>
+    <Arguments>pathtracer_ispc -c crown/crown.ecs</Arguments>
+    <Description>Binary: Pathtracer ISPC - Model: Crown</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/oidn</Test>
+    <Arguments>-hdr memorial.pfm</Arguments>
+    <Description>Scene: Memorial</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>magnetic-512-volume/magnetic-512-volume.osp --renderer scivis</Arguments>
+    <Description>Demo: Magnetic Reconnection - Renderer: SciVis</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>magnetic-512-volume/magnetic-512-volume.osp --renderer pathtracer</Arguments>
+    <Description>Demo: Magnetic Reconnection - Renderer: Path Tracer</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>xfrog-forest.xml --renderer scivis</Arguments>
+    <Description>Demo: XFrog Forest - Renderer: SciVis</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>xfrog-forest.xml --renderer pathtracer</Arguments>
+    <Description>Demo: XFrog Forest - Renderer: Path Tracer</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>NASA-B-field-sun.osx --renderer scivis</Arguments>
+    <Description>Demo: NASA Streamlines - Renderer: SciVis</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>NASA-B-field-sun.osx --renderer pathtracer</Arguments>
+    <Description>Demo: NASA Streamlines - Renderer: Path Tracer</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>sanm/sanm.obj -vp 22.958788 3.204613 2.712676 -vu 0.000000 1.000000 0.000000 -vi 12.364944 0.176316 4.009342 -sg:sun:intensity=4.0 -sg:sun:direction=0,-1,0 -sg:bounce:intensity=0.0 --hdri-light rnl_probe.pfm -sg:hdri:intensity=1.25 --renderer scivis</Arguments>
+    <Description>Demo: San Miguel - Renderer: SciVis</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/ospray</Test>
+    <Arguments>sanm/sanm.obj -vp 22.958788 3.204613 2.712676 -vu 0.000000 1.000000 0.000000 -vi 12.364944 0.176316 4.009342 -sg:sun:intensity=4.0 -sg:sun:direction=0,-1,0 -sg:bounce:intensity=0.0 --hdri-light rnl_probe.pfm -sg:hdri:intensity=1.25 --renderer pathtracer</Arguments>
+    <Description>Demo: San Miguel - Renderer: Path Tracer</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/tungsten</Test>
+    <Arguments>../../data/example-scenes/hair/scene.json</Arguments>
+    <Description>Scene: Hair</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/tungsten</Test>
+    <Arguments>../../data/example-scenes/water-caustic/scene.json</Arguments>
+    <Description>Scene: Water Caustic</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/tungsten</Test>
+    <Arguments>../../data/example-scenes/non-exponential/scene.json</Arguments>
+    <Description>Scene: Non-Exponential</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/tungsten</Test>
+    <Arguments>../../data/example-scenes/volumetric-caustic/scene.json</Arguments>
+    <Description>Scene: Volumetric Caustic</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/luxcorerender</Test>
+    <Arguments>DLSC/LuxCoreScene/render.cfg</Arguments>
+    <Description>Scene: DLSC</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/luxcorerender</Test>
+    <Arguments>RainbowColorsAndPrism/LuxCoreScene/render.cfg</Arguments>
+    <Description>Scene: Rainbow Colors and Prism</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+</PhoronixTestSuite>

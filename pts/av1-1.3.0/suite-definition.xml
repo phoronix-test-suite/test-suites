@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.0.0-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>AV1</Title>
+    <Version>1.3.0</Version>
+    <TestType>System</TestType>
+    <Description>A collection of AV1 video encode/decode benchmarks.</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/dav1d</Test>
+    <Arguments>-i summer_nature_1080p.ivf</Arguments>
+    <Description>Video Input: Summer Nature 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d</Test>
+    <Arguments>-i summer_nature_4k.ivf</Arguments>
+    <Description>Video Input: Summer Nature 4K</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d</Test>
+    <Arguments>-i chimera_8b_1080p.ivf</Arguments>
+    <Description>Video Input: Chimera 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d</Test>
+    <Arguments>-i chimera_10b_1080p.ivf</Arguments>
+    <Description>Video Input: Chimera 1080p 10-bit</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/aom-av1</Test>
+    <Arguments>--cpu-used=8 --rt</Arguments>
+    <Description>Encoder Mode: Speed 8 Realtime</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/aom-av1</Test>
+    <Arguments>--cpu-used=6 --rt</Arguments>
+    <Description>Encoder Mode: Speed 6 Realtime</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/aom-av1</Test>
+    <Arguments>--cpu-used=4 --rt --limit=60</Arguments>
+    <Description>Encoder Mode: Speed 4 Realtime</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/aom-av1</Test>
+    <Arguments>--cpu-used=5 --limit=40</Arguments>
+    <Description>Encoder Mode: Speed 5 Two-Pass</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/aom-av1</Test>
+    <Arguments>--cpu-used=2 --limit=20</Arguments>
+    <Description>Encoder Mode: Speed 2 Two-Pass</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/aom-av1</Test>
+    <Arguments>--cpu-used=0 --limit=10</Arguments>
+    <Description>Encoder Mode: Speed 0 Two-Pass</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1</Test>
+    <Arguments>-enc-mode 8 -n 320 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Enc Mode 8 - Input: 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1</Test>
+    <Arguments>-enc-mode 4 -n 80 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Enc Mode 4 - Input: 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1</Test>
+    <Arguments>-enc-mode 0 -n 20 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Enc Mode 0 - Input: 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/libgav1</Test>
+    <Arguments>summer_nature_1080p.ivf</Arguments>
+    <Description>Video Input: Summer Nature 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/libgav1</Test>
+    <Arguments>summer_nature_4k.ivf</Arguments>
+    <Description>Video Input: Summer Nature 4K</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/libgav1</Test>
+    <Arguments>chimera_8b_1080p.ivf</Arguments>
+    <Description>Video Input: Chimera 1080p</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/libgav1</Test>
+    <Arguments>chimera_10b_1080p.ivf</Arguments>
+    <Description>Video Input: Chimera 1080p 10-bit</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/rav1e</Test>
+    <Arguments>-s 9 -l 80</Arguments>
+    <Description>Speed: 9</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/rav1e</Test>
+    <Arguments>-s 6 -l 60</Arguments>
+    <Description>Speed: 6</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/rav1e</Test>
+    <Arguments>-s 5 -l 60</Arguments>
+    <Description>Speed: 5</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/rav1e</Test>
+    <Arguments>-s 1 -l 20</Arguments>
+    <Description>Speed: 1</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+</PhoronixTestSuite>

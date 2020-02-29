@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.4.0-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>MPI Benchmarks</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>A collection of tests making use of MPI (Message Passing Interface).</Description>
+    <Maintainer>Michael Larabel</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/askap</Test>
+    <Arguments>tConvolveMPI</Arguments>
+    <Description>Test: tConvolve MPI</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/lammps</Test>
+    <Arguments>in.rhodo</Arguments>
+    <Description>Model: Rhodopsin Protein</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>HPL</Arguments>
+    <Description>Test / Class: G-HPL</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>PTRANS</Arguments>
+    <Description>Test / Class: G-Ptrans</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>MPIRANDOMACCESS</Arguments>
+    <Description>Test / Class: G-Random Access</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>MPIFFT</Arguments>
+    <Description>Test / Class: G-Ffte</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>STARSTREAMTRIAD</Arguments>
+    <Description>Test / Class: EP-STREAM Triad</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>STARDGEMMFLOPS</Arguments>
+    <Description>Test / Class: EP-DGEMM</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>RRINGLATENCY</Arguments>
+    <Description>Test / Class: Random Ring Latency</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>RRINGBANDWIDTH</Arguments>
+    <Description>Test / Class: Random Ring Bandwidth</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcc</Test>
+    <Arguments>MAXPPBANDWIDTH</Arguments>
+    <Description>Test / Class: Max Ping Pong Bandwidth</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/gromacs</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/qmcpack</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/pennant</Test>
+    <Arguments>leblancbig/leblancbig.pnt</Arguments>
+    <Description>Test: leblancbig</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/pennant</Test>
+    <Arguments>sedovbig/sedovbig.pnt</Arguments>
+    <Description>Test: sedovbig</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/nero2d</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/lammps</Test>
+    <Arguments>in.rhodo</Arguments>
+    <Description>Model: Rhodopsin Protein</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/hpcg</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/mrbayes</Test>
+    <Arguments></Arguments>
+    <Description></Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>bt.C</Arguments>
+    <Description>Test / Class: BT.C</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.C</Arguments>
+    <Description>Test / Class: EP.C</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ep.D</Arguments>
+    <Description>Test / Class: EP.D</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>ft.C</Arguments>
+    <Description>Test / Class: FT.C</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>lu.C</Arguments>
+    <Description>Test / Class: LU.C</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>sp.B</Arguments>
+    <Description>Test / Class: SP.B</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>is.D</Arguments>
+    <Description>Test / Class: IS.D</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>mg.C</Arguments>
+    <Description>Test / Class: MG.C</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/npb</Test>
+    <Arguments>cg.C</Arguments>
+    <Description>Test / Class: CG.C</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+  <Execute>
+    <Test>pts/minife</Test>
+    <Arguments>-&#x2010;nx 264 --ny 256 -&#x2010;nz 256</Arguments>
+    <Description>Problem Size: Small</Description>
+    <OverrideTestOptions></OverrideTestOptions>
+  </Execute>
+</PhoronixTestSuite>
